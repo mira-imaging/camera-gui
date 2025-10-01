@@ -375,19 +375,19 @@ class VideoPlayer(QWidget):
         arr = np.clip(arr * 255.0, 0, 255).astype(np.uint8)
         if arr.ndim == 2 or (arr.ndim == 3 and arr.shape[2] == 1):  # Grayscale
             qimg = QImage(
-                arr.data, 
-                arr.shape[1], 
-                arr.shape[0], 
-                arr.shape[1], 
+                arr.data,
+                arr.shape[1],
+                arr.shape[0],
+                arr.shape[1],
                 QImage.Format_Grayscale8,
             )
-        elif arr.ndim == 3:  # RGB
+        elif arr.ndim == 3 and arr.shape[2] >= 3:  # RGB
             arr = arr[..., :3]
             qimg = QImage(
-                arr.data, 
-                arr.shape[1], 
-                arr.shape[0], 
-                arr.shape[2] * arr.shape[1], 
+                arr.tobytes(),  # <- use bytes, not memoryview
+                arr.shape[1],
+                arr.shape[0],
+                arr.shape[1] * arr.shape[2],
                 QImage.Format_RGB888,
             )
         else:
@@ -551,7 +551,7 @@ def main():
     except Exception as e:
         raise e
 
-    player = VideoPlayer(camera_id=camera_id, fps=30)
+    player = VideoPlayer(camera_id=camera_id, fps=5)
     player.show()
     sys.exit(app.exec_())
 
