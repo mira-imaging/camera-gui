@@ -15,11 +15,14 @@ def load_data_path():
         data_path = Path(data_path)
         if data_path.is_dir():
             return data_path
+        else:
+            raise NotADirectoryError(f"The data directory '{data_path}', loaded from '.env', does not exist.")
     return load_project_dir() / "data"
 
 
 def main():
     print(load_project_dir())
+    print(load_data_path())
 
 
 if __name__ == "__main__":
