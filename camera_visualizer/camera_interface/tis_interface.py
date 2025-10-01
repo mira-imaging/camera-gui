@@ -231,7 +231,7 @@ class TisCamera(Camera):
         return self.state.bit_depth()
 
     def toggle_bit_depth(self) -> None:
-        pass
+        print(f"Bit-depth is now {self.bit_depth()} bits.")
 
     def _get_frame_view(
         self,

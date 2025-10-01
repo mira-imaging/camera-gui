@@ -33,7 +33,7 @@ def main():
     factory_dir = load_data_path() / "cuvis/factory"
     settings_dir = load_data_path() / "cuvis/factory"
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S%f")[:-3]  # trim microseconds to milliseconds
-    output_dir = load_data_path() / f"cuvis/data/record_{timestamp}"
+    output_dir = load_data_path() / f"cuvis/data/rec_{timestamp}"
     exposure = 100  # ms
     log_state = logging.INFO
     rgb_bands = (27, 9, 4)
@@ -78,7 +78,11 @@ def main():
 
             processing_context.apply(mesu=measurement)
             image_data = measurement.cube
-            image_arr = image_data.data
+            image_arr = image_data.array
+            width = image_data.width
+            height = image_data.height
+            channels = image_data.channels
+            wavelength = image_data.wavelength
 
             # Visualize
             im_display = update_visualize(
