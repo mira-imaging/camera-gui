@@ -153,7 +153,7 @@ Personal mail: [mhmd.jouni@outlook.fr](mailto:mhmd.jouni@outlook.fr)
 ## Acknowledgements
 
 This work was supported by the **Auvergne-Rhône-Alpes (AuRA) region** under project **"Pack Ambition International 2021"** by **Grant 21-007356-01FONC** and **Grant 21-007356-02INV**.
-It is part of a scientific collaboration between Grenoble INP (France) and Institute of Science Tokyo (Japan).
+It is part of a scientific collaboration between Grenoble INP - UGA (France) and Institute of Science Tokyo (Japan).
 It was carried out at Hatanaka Lab, Department of Systems and Control Engineering, School of Engineering, Institute of Science Tokyo.
 
 <div align="center">
