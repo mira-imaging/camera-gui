@@ -162,7 +162,7 @@ It was carried out at Hatanaka Lab, Department of Systems and Control Engineerin
   <div>
     <img src="./assets/uga_logo.png" alt="Université Grenoble Alpes" height="75"/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/ginp_logo.svg" alt="Grenoble INP" height="75"/>
+    <img src="./assets/ginp_logo.png" alt="Grenoble INP" height="75"/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="./assets/gipsa_logo.png" alt="GIPSA-lab" height="75"/>
   </div>
