@@ -145,6 +145,27 @@ Work mail: [daniele.picone@grenoble-inp.fr](mailto:daniele.picone@grenoble-inp.f
 Personal mail: [danaroth83@gmail.com](mailto:danaroth83@gmail.com)  
 
 Mohamad Jouni  
-Floralis - Filiale UGA, CNRS, Grenoble INP, GIPSA-lab, 38000 Grenoble, France  
+Floralis - Filiale UGA, Univ. Grenoble Alpes, CNRS, Grenoble INP, GIPSA-lab, 38000 Grenoble, France  
 Work mail: [mohamad.jouni@grenoble-inp.fr](mailto:mohamad.jouni@grenoble-inp.fr)  
 Personal mail: [mhmd.jouni@outlook.fr](mailto:mhmd.jouni@outlook.fr)  
+
+
+## Acknowledgements
+
+This work was supported by the **Auvergne-Rhône-Alpes (AuRA) region** under project **"Pack Ambition International 2021"** by **Grant 21-007356-01FONC** and **Grant 21-007356-02INV**.
+It is part of a scientific collaboration between Grenoble INP (France) and Institute of Science Tokyo (Japan).
+It was carried out at Hatanaka Lab, Department of Systems and Control Engineering, School of Engineering, Institute of Science Tokyo.
+
+<div align="center">
+  <img src="./assets/aura_logo.png" alt="Auvergne-Rhône-Alpes (AuRA)" width="300"/>
+  <br><br>
+  <div>
+    <img src="./assets/uga_logo.png" alt="Université Grenoble Alpes" height="75"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/ginp_logo.svg" alt="Grenoble INP" height="75"/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/gipsa_logo.png" alt="GIPSA-lab" height="75"/>
+  </div>
+  <br>
+  <img src="./assets/science_tokyo_logo.svg" alt="Institute of Science Tokyo" width="300"/>
+</div>
