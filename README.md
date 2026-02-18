@@ -157,15 +157,15 @@ It is part of a scientific collaboration between Grenoble INP - UGA (France) and
 It was carried out at Hatanaka Lab, Department of Systems and Control Engineering, School of Engineering, Institute of Science Tokyo.
 
 <div align="center">
-  <img src="./assets/aura_logo.png" alt="Auvergne-Rhône-Alpes (AuRA)" width="300"/>
+  <img src="./assets/aura_logo.jpg" alt="Auvergne-Rhône-Alpes (AuRA)" width="300"/>
   <br><br>
   <div>
-    <img src="./assets/uga_logo.png" alt="Université Grenoble Alpes" height="75"/>
+    <img src="./assets/uga_logo.jpg" alt="Université Grenoble Alpes" height="75"/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/ginp_logo.png" alt="Grenoble INP" height="75"/>
+    <img src="./assets/ginp_logo.jpg" alt="Grenoble INP" height="75"/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/gipsa_logo.png" alt="GIPSA-lab" height="75"/>
+    <img src="./assets/gipsa_logo.jpg" alt="GIPSA-lab" height="75"/>
   </div>
   <br>
-  <img src="./assets/science_tokyo_logo.svg" alt="Institute of Science Tokyo" width="300"/>
+  <img src="./assets/science_tokyo_logo.jpg" alt="Institute of Science Tokyo" width="300"/>
 </div>
